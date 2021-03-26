@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="5" name="Nopackage(failed)">
+    <parameter name="myName" value="manisha"/>
+    <classes>
+      <class name="com.Parameters.qa.param">
+        <methods>
+          <include name="base_2"/>
+        </methods>
+      </class> <!-- com.Parameters.qa.param -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
